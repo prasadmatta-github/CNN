@@ -11,8 +11,8 @@ Run this command to activate the environment<br/>
     __source edge/bin/activate__<br/>
 
 After that you need to install below mentioned packages<br/>
-    <center>**numpy==1.19.2**</center>
-    <p style="text-align:center"><img src="**opencv-python==4.4.0.42**" /></p><br/>
+    <pre>                 **numpy==1.19.2**</pre>
+    <pre>                 **opencv-python==4.4.0.42**</pre>
 
 and run **edge_detection.py** file so that you can see a pop window with the output<br/>
 
