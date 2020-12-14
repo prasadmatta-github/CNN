@@ -5,10 +5,10 @@ Set up an environment for this project using virtualenv package<br/>
 Here is the commands to set up environment after installing virtualenv<br/>
 
 Run this command in terminal to create virtual environment<br/> 
-    **virtualenv edge --python=python3.6**<br/>
+   * **virtualenv edge --python=python3.6**<br/>
 
 Run this command to activate the environment<br/> 
-    __source edge/bin/activate__<br/>
+   * __source edge/bin/activate__<br/>
 
 After that you need to install below mentioned packages<br/>
 `numpy==1.19.2`<br/>
