@@ -40,9 +40,9 @@ class EDGE:
     def vertical(self):
         
         self.gen_img = []
-        for ht in range(0,self.height-2):
+        for ht in range(0,self.height-2,self.strides):
             row =[]
-            for wdt in range(0,self.width-2):
+            for wdt in range(0,self.width-2,self.strides):
                 n_img = self.img[ht:ht+3,wdt:wdt+3] * self.kernal
                 row.append(sum(list(map(lambda x :sum(x),n_img))))
             self.gen_img.append(row)
